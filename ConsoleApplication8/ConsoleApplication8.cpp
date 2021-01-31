@@ -16,7 +16,7 @@ int main(void) {
 	int a = 0;
 	int b = 0;
 	for (int i = 0; i <= r; i++) {
-		cout << kaijo(r) / kaijo(i) / kaijo(r - i) << "x^" << r - 1 << " y^" << i ;
+		cout << kaijo(r) / kaijo(i) / kaijo(r - i) << "x^" << r - i << " y^" << i ;
 		if (i != r) {
 			cout <<" + ";
 		}
