@@ -13,8 +13,6 @@ int main(void) {
 	int s;
 	cin >> s;
 	const int r = s;
-	int a = 0;
-	int b = 0;
 	for (int i = 0; i <= r; i++) {
 		cout << kaijo(r) / kaijo(i) / kaijo(r - i) << "x^" << r - i << " y^" << i ;
 		if (i != r) {
